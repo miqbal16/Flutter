@@ -1,0 +1,190 @@
+import 'package:pintar_app/controller/pertanyaan.dart';
+
+class KoleksiSoal {
+  List<List<Pertanyaan>> bankSoal = [
+    // koleksi soal Sejarah
+    [
+      Pertanyaan(
+        soal: 'Siapakah yang di sebut sebagai bapak ekonomi Indonesia?',
+        jawaban: 'Mohammad Hatta',
+        pilihan1: 'Ahmad Yani',
+        pilihan2: 'Mohammad Hatta',
+        pilihan3: 'Soekarno',
+        pilihan4: 'Buya Hamka',
+      ),
+      Pertanyaan(
+        soal:
+            '6 jendral dan 1 perwira TNI AD yang menjadi korban pada tragedi G30S diangkat menjadi pahlawan?',
+        jawaban: 'Pahlawan Revolusi',
+        pilihan1: 'Pahlawan Nasional',
+        pilihan2: 'Pahlawan Kebangkitan',
+        pilihan3: 'Pahlawan Revolusi',
+        pilihan4: 'Pahlawan Kebenaran',
+      ),
+      Pertanyaan(
+        soal: 'Siapakah Beliau?',
+        imageSoal: 'assets/images/Moh_Hatta.jpg',
+        jawaban: 'Mohammad Hatta',
+        pilihan1: 'Ahmad Yani',
+        pilihan2: 'Mohammad Hatta',
+        pilihan3: 'Soekarno',
+        pilihan4: 'Buya Hamka',
+      ),
+      Pertanyaan(
+        soal: 'Apakah nama bangunan peninggalan sejarah indonesia ini?',
+        jawaban: 'Candi Borobudur',
+        imageSoal: 'assets/images/candi_borobudur.jpg',
+        pilihan1: 'Candi Borobudur',
+        pilihan2: 'Candi Prambanan',
+        pilihan3: 'Candi Muara Jambi',
+        pilihan4: 'Pyramid',
+      ),
+      Pertanyaan(
+        soal: 'Berapa lamakah jepang menjajah indonesia?',
+        jawaban: '3.5 Tahun',
+        pilihan1: '3 Tahun',
+        pilihan2: '3.5 Tahun',
+        pilihan3: '4 Tahun',
+        pilihan4: '4.5 Tahun',
+      ),
+      Pertanyaan(
+        soal: 'Dibawah ini pahlawan yang berasal dari pulau sumatera adalah',
+        jawaban: 'Tuanku Imam Bonjol',
+        pilihan1: 'Pangeran Diponogoro',
+        pilihan2: 'Patimura',
+        pilihan3: 'Pangeran Antasari',
+        pilihan4: 'Tuanku Imam Bonjol',
+      ),
+      Pertanyaan(
+        soal: 'Pada tahun berapa VOC didirikan?',
+        jawaban: '1602',
+        pilihan1: '1602',
+        pilihan2: '1589',
+        pilihan3: '1612',
+        pilihan4: '1787',
+      ),
+      Pertanyaan(
+        soal: 'Siapakah nama pahlawan ini?',
+        jawaban: 'Pangeran Diponogoro',
+        imageSoal: 'assets/images/diponogoro.jpg',
+        pilihan1: 'Tuanku Imam Bonjol',
+        pilihan2: 'Pangeran Diponogoro',
+        pilihan3: 'Mohammad Toha',
+        pilihan4: 'Sultan Syarif Kasim',
+      ),
+      Pertanyaan(
+        soal: 'Siapa nama bapak republik indonesia?',
+        jawaban: 'Tan Malaka',
+        pilihan1: 'Soekarno',
+        pilihan2: 'Mohammad Hatta',
+        pilihan3: 'Buya Hamka',
+        pilihan4: 'Tan Malaka',
+      ),
+      Pertanyaan(
+        soal:
+            'Dibawah ini kota di indonesia yang pernah menjadi ibu kota negara indonesia adalah?',
+        jawaban: 'Bukit Tinggi dan Yogyakarta',
+        pilihan1: 'Bandung dan Bogor',
+        pilihan2: 'Medan dan Yogyakarta',
+        pilihan3: 'Bukit Tinggi dan Yogyakarta',
+        pilihan4: 'Bali dan Banyuwangi',
+      ),
+    ],
+
+    // Soal Pengetahuan Umum
+    [
+      Pertanyaan(
+        soal: 'Siapakah yang di sebut sebagai bapak ekonomi Indonesia?',
+        jawaban: 'Mohammad Hatta',
+        pilihan1: 'Ahmad Yani',
+        pilihan2: 'Mohammad Hatta',
+        pilihan3: 'Soekarno',
+        pilihan4: 'Buya Hamka',
+      ),
+      Pertanyaan(
+        soal:
+            '6 jendral dan 1 perwira TNI AD yang menjadi korban pada tragedi G30S diangkat menjadi pahlawan?',
+        jawaban: 'Pahlawan Revolusi',
+        pilihan1: 'Pahlawan Nasional',
+        pilihan2: 'Pahlawan Kebangkitan',
+        pilihan3: 'Pahlawan Revolusi',
+        pilihan4: 'Pahlawan Kebenaran',
+      ),
+      Pertanyaan(
+        soal: 'Siapakah Beliau?',
+        imageSoal: 'assets/images/imagesSejarah/',
+        jawaban: 'Mohammad Hatta',
+        pilihan1: 'Ahmad Yani',
+        pilihan2: 'Haji Agus Salim',
+        pilihan3: 'Soekarno',
+        pilihan4: 'Buya Hamka',
+      ),
+      Pertanyaan(
+        soal: 'Apakah nama bangunan peninggalan sejarah indonesia ini?',
+        jawaban: 'Candi Borobudur',
+        pilihan1: 'Candi Borobudur',
+        pilihan2: 'Candi Prambanan',
+        pilihan3: 'Candi Muara Jambi',
+        pilihan4: 'Pyramid',
+      ),
+      Pertanyaan(
+        soal: 'Berapa lamakah jepang menjajah indonesia?',
+        jawaban: '3.5 Tahun',
+        pilihan1: '3 Tahun',
+        pilihan2: '3.5 Tahun',
+        pilihan3: '4 Tahun',
+        pilihan4: '4.5 Tahun',
+      ),
+      Pertanyaan(
+        soal: 'Dibawah ini pahlawan yang berasal dari pulau sumatera adalah',
+        jawaban: 'Tuanku Imam Bonjol',
+        pilihan1: 'Pangeran Diponogoro',
+        pilihan2: 'Patimura',
+        pilihan3: 'Pangeran Antasari',
+        pilihan4: 'Tuanku Imam Bonjol',
+      ),
+      Pertanyaan(
+        soal: 'Pada tahun berapa VOC didirikan?',
+        jawaban: '1602',
+        pilihan1: '1602',
+        pilihan2: '1589',
+        pilihan3: '1612',
+        pilihan4: '1787',
+      ),
+      Pertanyaan(
+        soal: 'Siapakah nama pahlawan ini?',
+        jawaban: 'Pangeran Diponogoro',
+        pilihan1: 'Tuanku Imam Bonjol',
+        pilihan2: 'Pangeran Diponogoro',
+        pilihan3: 'Mohammad Toha',
+        pilihan4: 'Sultan Syarif Kasim',
+        imageSoal: 'assets/images/imagesSejarah/',
+      ),
+      Pertanyaan(
+        soal: 'Dikota manakah Ir.Soekarno dilahirkan?',
+        jawaban: 'Blitar',
+        pilihan1: 'Banyuwangi',
+        pilihan2: 'Kebumen',
+        pilihan3: 'Padang',
+        pilihan4: 'Blitar',
+      ),
+      Pertanyaan(
+        soal: 'Siapa nama bapak republik indonesia?',
+        jawaban: 'Tan Malaka',
+        pilihan1: 'Soekarno',
+        pilihan2: 'Mohammad Hatta',
+        pilihan3: 'Buya Hamka',
+        pilihan4: 'Tan Malaka',
+      ),
+      Pertanyaan(
+        soal:
+            'Dibawah ini kota di indonesia yang pernah menjadi ibu kota negara indonesia adalah?',
+        jawaban: 'Bukit Tinggi dan Yogyakarta',
+        pilihan1: 'Bandung dan Bogor',
+        pilihan2: 'Medan dan Yogyakarta',
+        pilihan3: 'Bukit Tinggi dan Yogyakarta',
+        pilihan4: 'Bali dan Banyuwangi',
+      ),
+    ]
+  ];
+}
